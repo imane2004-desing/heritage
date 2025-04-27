@@ -87,9 +87,9 @@ public:
 
 int main() {
     PokemonSportif ps("Pikachu", 20.0, 4, 0.5, 150);
-    PokemonCasanier pc("Ronflex", 21.0, 2, 1.2, 5);
-    PokemonMer pm("Leviator", 25.0, 6);
-    PokemonCroisiere pcr("Tortank", 30.0, 4);
+    PokemonCasanier pc("Pikachu2", 21.0, 6, 0.3, 5);
+    PokemonMer pm("Pikach3", 25.0, 6);
+    PokemonCroisiere pcr("Pikachu4", 30.0, 8);
 
     cout << ps.toString() << endl;
     cout << pc.toString() << endl;

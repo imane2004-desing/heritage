@@ -117,19 +117,19 @@ public:
 int main()
 {
 
-    Ordinateur o1("ORD001", "Neuf", "2024-05-01", 3000.0, "HP", 36.6);
+    Ordinateur o1("ORD1", "Operationnel", "2024-06-01", 4000.0, "HP", 35.6);
     cout << "Informations sur l'ordinateur :\n";
     o1.affiche();
     cout << endl;
 
 
-    Table t1("TAB001", "Bon état", "2023-10-15", 1200.0, 180.0, 90.0);
+    Table t1("TAB1", "Bon état", "2024-08-25", 2200.0, 80.0, 50.0);
     cout << "Informations sur la table :\n";
     t1.affiche();
     cout << endl;
 
 
-    Imprimante i1("IMP001", "Neuve", "2024-02-20", 1500.0, "Epson", "EPS123456789");
+    Imprimante i1("IMP1", "Operationnel", "2024-12-20", 1000.0, "HP", "SN12345");
     cout << "Informations sur l'imprimante :\n";
     i1.affiche();
 
